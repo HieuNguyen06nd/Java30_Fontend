@@ -10,11 +10,24 @@
             width: 520px;
             height: 514px;
         }
+        input{
+            font-size: 100%;
+            margin: 5px;
+            /* width: 80%; */
+        }
+        .width-80{
+            width: 80%;
+        }
+
         tr:first-child th{
             text-align: center;
         }
         tr:last-child th{
             text-align: center;
+            width: 20%;
+        }
+        tr:last-child input{
+            width: 20%;
         }
         tr{
             border: 1px solid black;
@@ -30,25 +43,24 @@
     <div class="container">
         <form action="#">
             <table>
-
                 <tr class="t">
-                    <th colspan="2" style="width: 100%;"> Đăng ký</th>
+                    <th colspan="2" style="width: 100%;"> <h2 style="margin: 0;">Đăng ký</h2> </th>
                 </tr>
                 <tr>
                     <th>Full name</th>
-                    <th> <input type="text" placeholder="Nhập Fullname"> </th>
+                    <th> <input class="width-80" type="text" placeholder="Nhập Fullname"> </th>
                 </tr>
                 <tr>
                     <th>Username</th>
-                    <th> <input type="text" placeholder="Nhập tên"> </th>
+                    <th> <input class="width-80" type="text" placeholder="Nhập tên"> </th>
                 </tr>
                 <tr>
                     <th>Password</th>
-                    <th> <input type="password" placeholder="Nhập mật khẩu"> </th>
+                    <th> <input class="width-80" type="password" placeholder="Nhập mật khẩu"> </th>
                 </tr>
                 <tr>
                     <th>Nhập lại password</th>
-                    <th> <input type="password" placeholder="Nhập lại mật khẩu"> </th>
+                    <th> <input class="width-80" type="password" placeholder="Nhập lại mật khẩu"> </th>
                 </tr>
                 <tr>
                     <th>Giới tính</th>
@@ -81,7 +93,7 @@
                 </tr>
                 <tr>
                     <th>Địa chỉ</th>
-                    <th><textarea name="message" rows="3" cols="20">
+                    <th><textarea style="margin: 5px;" name="message" rows="3" cols="20">
                         </textarea></th>
                 </tr>
                 <tr>
