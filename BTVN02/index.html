@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 520px;
+            height: 514px;
+        }
+        tr{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <table>
+                <tr class="tr_title">
+                    <th style="width: 100%;"> Đăng ký</th>
+                </tr>
+                <tr>
+                    <th>Full name</th>
+                    <th> <input type="text" placeholder="Nhập Fullname"> </th>
+                </tr>
+                <tr>
+                    <th>Username</th>
+                    <th> <input type="text" placeholder="Nhập tên"> </th>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <th> <input type="password" placeholder="Nhập mật khẩu"> </th>
+                </tr>
+                <tr>
+                    <th>Nhập lại password</th>
+                    <th> <input type="password" placeholder="Nhập lại mật khẩu"> </th>
+                </tr>
+                <tr>
+                    <th>Giới tính</th>
+                    <th>
+                        <input type="radio" value="Nam">
+                        <label for="html">Nam</label>
+                        <input type="radio" value="Nu">
+                        <label for="html">Nữ</label>                  
+                    </th>
+                </tr>
+                <tr>
+                    <th>Ngày sinh</th>
+                    <th>
+                        <select name="NgaySinh" id="">
+                            <option value="">Ngày 1</option>
+                            <option value="">Ngày 2</option>
+                            <option value="">Ngày 3</option>
+                        </select>
+                        <select name="NgaySinh" id="">
+                            <option value="">Tháng 1</option>
+                            <option value="">Tháng 2</option>
+                            <option value="">Tháng 3</option>
+                        </select>
+                        <select name="NgaySinh" id="">
+                            <option value="">Năm 2015</option>
+                            <option value="">Năm 2016</option>
+                            <option value="">Năm 2017</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Địa chỉ</th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th>Avatar</th>
+                    <th><input type="file"></th>
+                </tr>
+                <tr>
+                    <th>Sở Thích</th>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Xem phim</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Thể thao</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Web</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="submit" value="Reset">
+                        <input type="submit" value="Ok">
+                    </th>
+                    
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
