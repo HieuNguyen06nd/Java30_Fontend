@@ -10,20 +10,29 @@
             width: 520px;
             height: 514px;
         }
+        tr:first-child th{
+            text-align: center;
+        }
+        tr:last-child th{
+            text-align: center;
+        }
         tr{
             border: 1px solid black;
         }
         th{
             border: 1px solid black;
+            text-align: left;
         }
+        
     </style>
 </head>
 <body>
     <div class="container">
         <form action="#">
             <table>
-                <tr class="tr_title">
-                    <th style="width: 100%;"> Đăng ký</th>
+
+                <tr class="t">
+                    <th colspan="2" style="width: 100%;"> Đăng ký</th>
                 </tr>
                 <tr>
                     <th>Full name</th>
@@ -72,7 +81,8 @@
                 </tr>
                 <tr>
                     <th>Địa chỉ</th>
-                    <th><input type="text"></th>
+                    <th><textarea name="message" rows="3" cols="20">
+                        </textarea></th>
                 </tr>
                 <tr>
                     <th>Avatar</th>
@@ -90,7 +100,7 @@
                     </th>
                 </tr>
                 <tr>
-                    <th>
+                    <th colspan="2"> 
                         <input type="submit" value="Reset">
                         <input type="submit" value="Ok">
                     </th>
