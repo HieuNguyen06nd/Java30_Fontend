@@ -1,0 +1,66 @@
+html{
+    background-color: #666;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cart{
+    height: 500px;
+    width: 345px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.header-logo{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0;
+
+}
+.header-logo p{
+    color: white;
+    font-size: 20px;
+}
+.header__title p{
+    margin: 0;
+}
+.header__title p:last-child{
+    color: #868282;
+}
+.header-icon{
+    padding-top: 2px;
+    font-size: 20px;
+    color: #868282;
+}
+.content img{
+    width: 100%;
+}
+.content p{
+    color: #868282;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.footer{
+    margin-top: 30px;
+    padding: 10px;
+    color: #868282;
+}
+.footer-left{
+    float: left;
+    font-size: 20px;
+}
+.footer-left i{
+    margin-right: 7px;
+}
+.footer-right{
+    float: right;
+    font-size: 15px;
+}
+
