@@ -11,9 +11,13 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a94df8c69b.js" crossorigin="anonymous"></script>
 
+    <!-- import owl-carousel -->
+     <link rel="stylesheet" href="./lib/owl-carousel/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="./lib/owl-carousel/assets/owl.theme.default.min.css">
     <!-- import css -->
      <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+
     <title>BOOKNET</title>
 </head>
 <body>
@@ -22,19 +26,66 @@
         <div class="container">
             <div class="header-top-wrap">
                 <div class="header-top-left">
-
+                    <a href="#"><h1>BookNest</h1></a>
                 </div>
                 <div class="header-top-searchmain">
-
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button class="button-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </div>
                 <div class="header-top-rigth">
-                    
+                    <div class="header-top-bookmap">
+                       <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>địa chỉ nhà sách</span>
+                       </a> 
+                    </div>
+                    <ul class="icon_user">
+                        <li><i class="fa-regular fa-user"></i></li>
+                        <li><i class="fa-solid fa-cart-arrow-down"></i>
+                            <span>3</span>
+                        </li>
+                    </ul>
                 </div>
-
-
             </div>
         </div>
-
      </div>
+     <!-- header menu -->
+    <div class="menu-main">
+            <div class="container">
+                <ul class="header_menu">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Sách trong nước</a></li>
+                    <li><a href="">Sách nước ngoài</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0291292922</span>
+                    </a></li>
+                </ul>
+            </div>
+    </div>
+
+      <!-- banner -->
+    <div class="banner-main">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./assets/img/slide_1_img.webp" alt=""></div>
+            <div class="item"><img src="./assets/img/slide_2_img.webp" alt=""></div>
+            <div class="item"><img src="./assets/img/slide_3_img.webp" alt=""></div>  
+        </div>
+    </div>
+
+
+
+
+<script src="./lib/jquery-3.7.1.min.js"></script>
+<script src="./lib/owl-carousel/owl.carousel.min.js"></script>
+<!-- import js -->
+<script src="./assets/js/main.js"></script>
+
+
 </body>
 </html>

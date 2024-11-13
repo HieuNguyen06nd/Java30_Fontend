@@ -16,10 +16,19 @@
 
     --text-color-hover:#F65C4E;
     --star-color:#ffce3e;
+    
 }
 body{
+    font-size: 62.5%;
+    line-height: 1.6rem;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
 }
 .container{
     max-width: 1260px;

@@ -4,15 +4,118 @@
     height: 66px;
     background-color: var(--primary-color);
 }
-.header-top-wap{
+.header-top-wrap{
     display: flex;
 }
 .header-top-left{
-    width: 25%;
+    width:25%;
+    height: 66px;
+    display: flex;
+    align-items: center;
 }
+.header-top-left a h1{
+    font-size: 26px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
 .header-top-searchmain{
-    width: 55%;
+    width: 45%;
+    display: flex;
+    align-items: center;
 }
+.searchmain-wap{
+    display: flex;
+}
+.header-top-searchmain input{
+    border: none;
+    outline: none;
+    height: 46px;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 40px 0  0 40px;
+}
+.button-search{
+    font-size: 1.6rem;
+    border: none;
+    width: 60px;
+    height: 46px;
+    color: var(--white-color);
+    background-color: #CF3424;
+    border-radius: 0 40px 40px 0;
+}
+
 .header-top-rigth{
-    width: calc(100%-(55%+25%));
+    width: calc(100%-(45%+25%));
+    width: 30%;
+    color: var(--white-color);
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top-bookmap{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.header-top-bookmap span{
+    font-size: 0.9rem;
+    color: var(--white-color);
+    margin-left: 8px;
+    text-decoration: underline;
+}
+.header-top-bookmap i{
+    font-size: 1rem;
+    color: var(--white-color);
+}
+.icon_user{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+.icon_user li{
+    margin: 0 7px;
+    border-left: 1px solid var(--white-color);
+    padding-left: 15px;
+
+}
+.icon_user li:first-child{
+    border: none;
+}
+
+.icon_user li span{
+    position: absolute;
+    top: -9px;
+    right: -4px;
+    color: var(--text-color);
+    width: 15px;
+    height: 15px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* menu main */
+.menu-main{
+    background-color: var(--white-color);
+    width: 100%;
+    height: 66px;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* banner */
+.banner-main{
+    position: relative;
 }
