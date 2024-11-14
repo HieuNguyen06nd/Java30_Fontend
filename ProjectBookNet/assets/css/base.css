@@ -34,3 +34,8 @@ ul li{
     max-width: 1260px;
     margin: auto; 
 }
+.whith-80px{
+    width: 80px;
+    display: block;
+    height: 66px;
+}
