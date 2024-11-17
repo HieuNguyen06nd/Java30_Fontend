@@ -5,17 +5,6 @@
 }
 :root{
 
-    --bg-color:##FFFFFF;
-    --white-color: #fff;
-    --red-color: #F65C4E;
-    --black-color: black;
-    --text-color:#333333;
-    --border-color:#dbdbdb;
-    --primary-color: #F65C4E;
-
-    --text-color-hover:#F65C4E;
-    --star-color:#ffce3e;
-    
 }
 body{
     font-family: "Roboto", sans-serif;

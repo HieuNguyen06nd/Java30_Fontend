@@ -347,28 +347,35 @@
 .section-product{
     margin-top: 33px;
 }
+.btn_showall{
+    padding: 2px 5px 5px 15px !important;
+}
 
 .owl-prev{
     position: absolute;
-    top: 185px;
-    left: 0;
-    font-size: 32px !important;
+    top: 150px;
+    left: 16px;
+    font-size: 64px !important;
     font-weight: 900;
     line-height: 32px;
     text-align: center;
-    color: rgba(25, 49, 84, 1);
+    color: rgba(30, 40, 50, 0.25) !important;
+
 
 
 }
 .owl-next{
     position: absolute;
-    top: 185px;
-    right: 0;
-    font-size: 32px !important;
+    top: 150px;
+    right: 16px;
+    font-size: 64px !important;
     font-weight: 900;
     line-height: 32px;
     text-align: center;
-    color: rgba(25, 49, 84, 1);
+    color: rgba(30, 40, 50, 0.25) !important;
+}
+.owl-next:hover{
+    background-color: none !important;
 }
 
 /* newsletter-instagram  */
@@ -380,8 +387,8 @@
     text-align: center;
 }
 .instagram{
-    margin-top: 70px;
-    margin-bottom: 78px;
+    margin-top: 57px;
+    margin-bottom: 72px;
     height: 200px;
     display: flex;
 }
@@ -392,17 +399,18 @@
 }
 
 .newletter{
-    margin-top: 85px;
+    margin-top: 73px;
 }
 
 .newletter input{
     width: 643px;
     height: 32px;
-    margin-right: 30px;
+    margin-right: 20px;
+    padding:15px 15px 15px 15px  ;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
     background-color: rgba(30, 40, 50, 0.05);
-
+    font-size: 16px;
 }
 
 .newletter button{
@@ -443,9 +451,9 @@
     height: 84px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.79px;
+    line-height: 29.79px;
     text-align: left;
-    margin: 35px 0 30px 0;
+    margin: 28px 0 36px 0;
     color: rgba(30, 40, 50, 0.75);
 
 }
@@ -456,7 +464,8 @@
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin-right: 45px;
+    margin-right: 39px;
+    padding-left: 5px;
 }
 .footer-right{
     width: 100%;
@@ -471,25 +480,29 @@
     font-size: 16px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 3px;
 }
 .footer-right ul li{
     color: rgba(30, 40, 50, 1);
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     text-align: left;
     margin-bottom: 14px;
+    margin-left: 10px;
 }
 
 .footer-bttom{
-    margin-top: 90px;
+    margin-top: 75px;
     padding-top: 15px;
 }
 .footer-bttom-wap{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
 }
 .copyright{
     font-family: "Open Sans", sans-serif;
@@ -498,6 +511,10 @@
     line-height: 21.79px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+}
+.payment{
+    margin: 0 390px 0 377px;
+    
 }
 .copyright i{
     margin-left: 5px;
