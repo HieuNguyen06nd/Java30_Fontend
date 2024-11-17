@@ -15,36 +15,37 @@
     width: 124.34px;
     height: 75.61px;
     top: 612.62px;
-    left: -10.84px;
-    /* angle: -150 deg; */
-
+    left: -300.84px;
 }
 .header .frame_2{
     position: absolute;
     top: 359.8px;
     width: 219.75px;
     height: 282.91px;
-    right: -12.29px;
-
-    /* angle: -150 deg; */
-
+    right: -300.29px;
 }
 
 .header-top{
-    padding-top: 12px;
+    padding-top: 10px;
     margin-bottom: 2px;
     height: 63px;
     display: flex;
     border-bottom: 1px solid rgba(227, 227, 227, 1)
 }
+.icon_search i{
+    padding: 1px 0 1px 1px;
+}
 .header-top i{
     font-size: 20px;
 }
-.header-top .img{
+.header-top a{
+    color: black;
+}
+.header-top .img_logo{
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    margin-top: -8px;
+    margin-top: -6px;
 }
 .header-top .column-3 img{
     width: 180px;
@@ -58,7 +59,7 @@
 .header-info span{
     font-size: 18px;
 }
-.header-info i{
+.header-info a i{
     font-size: 20px;
     margin-right:10px;
 }  
@@ -76,11 +77,15 @@
     padding-top: 30px;
 }
 .menu ul li{
-    font-family: "Open Sans", sans-serif;
+    font-family: var( --font-family-opensan);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 21px;
     text-align: left;
+}
+.menu ul li a{
+    color: rgba(0, 0, 0, 1);
+
 }
 
 /* header-product */
@@ -88,19 +93,13 @@
     width: 1226px;
     height: 562px;
     display: flex;
-    margin-top: 80px;
+    margin-top: 82px;
 }
-
 .header-product-img{
     width: 442px;
     height: 562px;
-
 }
 
-.header-product-img img{
-    width: 100%;
-    object-fit: cover;
-}
 .header-product-content{
     width: 686px;
     height: 364px;
@@ -128,24 +127,27 @@
     font-size: 24px;
 }
 .header-product-content button{
-    width: 225px;
-    height: 72px;
-    padding: 14px 23px 14px 31px;
+    width: 224px;
+    height: 71px;
+    padding: 14px 21px 12px 30px;
     margin-top:55px;
     margin-left: 3px;
     background: rgba(30, 40, 50, 1);
-    color: rgba(255, 255, 255, 1);
     font-size: 29px;
     line-height: 33.98px;
     text-align: left;
 }
-
-
+.header-product-content button a{
+    color: #ffff;
+}
+.header-product-content button a i{
+    padding-right: 2px;
+}
 
 
 /* brand */
 .brand{
-    margin-top: 92px;
+    margin-top: 94px;
     height: 70px;
 }
 .brand ul{
@@ -171,8 +173,8 @@
 }
 .hot-category .outer{
     position: absolute;
-    top: 300px;
-    left: -55px;
+    top: 298px;
+    left: -350px;
     width: 648px;
     height: 52px;
     font-size: 34px;
@@ -189,9 +191,10 @@
 
 .hot-category-left, .hot-category-right{
     width: 648px;
+    height: 648px;
 }
 .hot-category-left img{
-    height: fit-content;
+    /* height: fit-content; */
     object-fit: fill;
 }
 
@@ -229,20 +232,25 @@
     font-size: 16px;
     line-height: 21.79px;
     text-align: left;
-    color: rgba(0, 0, 0, 0.5);
     margin-right: 42px;
+}
+.top-section-product ul li a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.fw600{
+    font-weight: 600;
+    color: black !important;
 }
 
 .top-section-product button{
     width: 92px;
-    height:  35px;
+    height:  33px;
     margin-top: -6px;
     padding: 2px 5px 5px 19px;
     gap: 4px;
     display: flex;
     align-items: center;
-    background-color: rgba(30, 40, 50, 1);
-    
+    background-color: rgba(30, 40, 50, 1);  
 }
 .top-section-product button span{
     font-family: "Open Sans", sans-serif;
@@ -259,6 +267,9 @@
     height: 478px;
     width: 312px;
 }
+.product-cart a{
+    color: black;
+}
 .cart-img{
     height: 400px;
     width: 312px;
@@ -271,7 +282,7 @@
     height: 24px;
     top: 22px;
     left: 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 12px;
     font-weight: 600;
     line-height: 23.34px;
@@ -284,8 +295,7 @@
     margin: 18px 10px 0 10px;
 }
 .cart-content .cart-name{
-
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 600;
     line-height: 21.79px;
@@ -293,23 +303,23 @@
 .cart-content-bag{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 .cart-cate{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
     color: rgba(0, 0, 0, 0.5);
 }
 .cart-price{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 600;
     line-height: 21.79px;
 }
 .cart-price-old{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     margin-right: 8px;
     font-size: 14px;
     font-weight: 600;
@@ -319,7 +329,7 @@
 }
 .cart-price-new{
     color: rgba(255, 111, 97, 1);
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 600;
     line-height: 21.79px;
@@ -336,8 +346,7 @@
 
 /* slider-product */
 .slider-product{
-    margin-top: 133px;
-    margin-left: 3px;
+    margin-top: 141px;
     height: 639px;
 }
 .slider-product-item{
@@ -347,7 +356,7 @@
     margin-top: 33px;
 }
 .btn_showall{
-    padding: 2px 5px 5px 15px !important;
+    padding: 2px 5px 5px 13px !important;
 }
 
 .owl-prev{
@@ -379,7 +388,7 @@
 
 /* newsletter-instagram  */
 .newsletter-instagram {
-    margin-top: 130px;
+    margin-top: 135px;
     padding-top: 105px;
     background-color: rgba(30, 40, 50, 0.05);
     height: 754px;
@@ -398,14 +407,15 @@
 }
 
 .newletter{
-    margin-top: 73px;
+    margin-top: 69px;
 }
 
 .newletter input{
     width: 643px;
     height: 32px;
-    margin-right: 20px;
-    padding:15px 15px 15px 15px  ;
+    margin-right: 25px;
+    font-family: var(--font-family-opensan);
+    padding:15px 15px 20px 17px;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
     background-color: rgba(30, 40, 50, 0.05);
@@ -414,12 +424,13 @@
 
 .newletter button{
     width: 91px;
-    height: 32px;
+    height: 34px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.79px;
     text-align: center;
     color: rgba(30, 40, 50, 1);
+    font-family: var(--font-family-opensan);
+    padding-bottom: 8px;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
 }
@@ -427,7 +438,7 @@
 
 .footer{
     height: 355px;
-    margin-top: 140px;
+    margin-top: 143px;
 }
 .footter-wap{
     display: flex;
@@ -440,19 +451,25 @@
     width: 392px;
     margin-right: 47px;
 }
+.footer-left ul{
+    margin-left: 3px;
+}
+.footer-left ul li a{
+    color: black;
+}
 .footer-left img{
     width: 180px;
     height: 34px;
 }
 .footer-left p{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     width: 392px;
     height: 84px;
     font-size: 16px;
     font-weight: 400;
     line-height: 29.79px;
     text-align: left;
-    margin: 28px 0 36px 0;
+    margin: 27px 0px 36px 1px;
     color: rgba(30, 40, 50, 0.75);
 
 }
@@ -469,29 +486,33 @@
 .footer-right{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
 }
 .footer-right div{
     width: 212px;
+    margin-right: 124px;
 }
 .footer-right h6{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     padding-left: 10px;
     padding-top: 3px;
 }
+
 .footer-right ul li{
-    color: rgba(30, 40, 50, 1);
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 22px;
     text-align: left;
     margin-bottom: 14px;
     margin-left: 10px;
+}
+.catalog  ul li a, .aboutus  ul li a, .service ul li a{
+    color: rgba(30, 40, 50, 1);
+    font-family: var(--font-family-opensan);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .footer-bttom{
@@ -504,12 +525,13 @@
     align-items: center;
 }
 .copyright{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family-opensan);
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+    display: flex;
 }
 .payment{
     margin: 0 390px 0 377px;
@@ -518,3 +540,7 @@
 .copyright i{
     margin-left: 5px;
 }
+
+
+
+/* reponsive */
