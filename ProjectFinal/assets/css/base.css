@@ -13,6 +13,11 @@ body{
     font-weight: 400;
     font-optical-sizing: auto;
 }
+.container{
+    max-width: 1320px;
+    margin: auto; 
+    position: relative;
+}
 a{
     text-decoration: none;
 }
@@ -43,12 +48,6 @@ ul li{
     padding:0 13px;
 }
 
-
-.container{
-    max-width: 1320px;
-    margin: auto; 
-    position: relative;
-}
 .mr-8{
     margin-right:8px;
 }
@@ -71,5 +70,4 @@ img{
     background-color: rgba(255, 111, 97, 1);
 
 }
-
 

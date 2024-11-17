@@ -1,7 +1,7 @@
 .header{
     padding-top: 31px;
     background-color:rgba(30, 40, 50, 0.05);
-    max-width: 1920px;
+    /* max-width: 1920px; */
     height: 847px;
     position: relative;
 }
@@ -90,7 +90,7 @@
 
 /* header-product */
 .header-product{
-    width: 1226px;
+    /* width: 1226px; */
     height: 562px;
     display: flex;
     margin-top: 82px;
@@ -339,10 +339,68 @@
 .brand-banner{
     height: 776px;
     margin-top: 140px;
+    position: relative;
 }
 .brand-banner img{
     height: 776px;
 }
+.logozara_1{
+    position: absolute;
+    top: 62px;
+    left: 1236px;
+    width: 679px;
+    height: 288px;
+}
+.logozara_1 img{   
+    width: 100%;
+    height: 100%;
+    gap: 0px;
+    opacity: 0.08px;
+}
+.logozara_2{
+    position: absolute;
+    top: 233px;
+    left: 1076px;
+    width: 191px;
+    height: 81px;
+}
+.logozara_2 img{
+    width: 100%;
+    height: 100%;
+}
+.banner-content{
+    position: absolute;
+    width: 504px;
+    height: 187px;
+    top: 366px;
+    left: 1075px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 49px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.banner-button{
+    position: absolute;
+    top: 610px;
+    left: 1074px;
+}
+.banner-button button {
+    width: 239px;
+    height: 72px;
+    padding: 17px 10px 15px 22px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 29px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 40, 50, 1);
+    cursor: pointer;
+}
+
+
+
 
 /* slider-product */
 .slider-product{
@@ -543,4 +601,3 @@
 
 
 
-/* reponsive */
