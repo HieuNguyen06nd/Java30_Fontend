@@ -71,3 +71,31 @@ img{
 
 }
 
+
+/* action */
+.action{
+    position: absolute;
+    top: 72%;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 99;
+    display: none;
+}
+.action div i,.action div a {
+    color: white;
+}
+.action .action_search i{
+    margin-right: 20px;
+}
+.action .action_addcart a i{
+    padding-right: 10px;
+}
+.product-inner :hover .action{
+    display: flex;
+}
+
